@@ -1,0 +1,57 @@
+.str {
+    color: red;
+}
+
+.sub {
+    border: 2px dashed darkred;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.content {
+    margin: 10px auto;
+    width: 60%;
+    border: 5px solid darkred;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name {
+    background-color: black;
+    padding: 10px;
+    width: 210px;
+    float: left;
+    text-align: right;
+}
+
+.in {
+    line-height: 2em;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.em {
+    line-height: 2em;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.ph {
+    line-height: 2em;
+    margin-top: 2px;
+    width: 19%;
+    text-align: center;
+}
+
+.country {
+    height: 30px;
+    margin-top: 2px;
+    width: 50%;
+    text-align: center;
+}
+
+.registerbtn {
+    width: 30%;
+}

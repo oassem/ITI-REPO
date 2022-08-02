@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PHP</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../docs/roadMap.html">Road-Map</a></li>
+                <li><a href="../docs/form.html">Form</a></li>
+                <li><a href="https://www.iti.gov.eg/iti/home">Contact</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="../imgs/ITI_logo.png">
+    </header>
+    <div class="content">
+        <h2>Register - Create Account</h2>
+        <div class="sub">Fields marked with <span class="str">*</span> are required fields!</div>
+        <form action="" method="post">
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name"><span class="str">*</span>Your Name:</div>
+                <div style="margin-left: 240px"><input class="in" type="text" id="name" name="name"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name"><span class="str">*</span>Email ID:</div>
+                <div style="margin-left: 240px"><input class="em" type="email" id="email" name="email"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name">Alternate Email ID:</div>
+                <div style="margin-left: 240px"><input class="em" type="email" id="_email" name="_email"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name">Your Phone:</div>
+                <div style="margin-left: 10px; display: inline;"><input placeholder="Country Code" class="ph" type="tel"
+                        id="cc" name="cc"></div>&nbsp -
+                <div style="margin-left: 10px; display: inline;"><input placeholder="City Code" class="ph" type="tel"
+                        id="_cc" name="_cc"></div>&nbsp -
+                <div style="margin-left: 10px; display: inline;"><input placeholder="Phone Number" class="ph" type="tel"
+                        id="phone" name="phone"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name">Mobile Phone:</div>
+                <div style="margin-left: 240px"><input class="in" type="text" id="mobile" name="mobile"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name"><span class="str">*</span>Your Postal Address:</div>
+                <div style="margin-left: 240px"><textarea id="address" name="address" rows="4" cols="67"></textarea>
+                </div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name"><span class="str">*</span>Country:</div>
+                <div style="margin-left: 240px">
+                    <select class="country" name="country-names" id="country-names">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="Egypt">EGYPT</option>
+                        <option value="UK">UK</option>
+                        <option value="Saudi Arabia">KSA</option>
+                        <option value="USA">Unites states of America</option>
+                    </select>
+                </div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div class="name"><span class="str">*</span>Password:</div>
+                <div style="margin-left: 240px"><input class="in" type="password" id="pass" name="pass"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 20px;">
+                <div class="name"><span class="str">*</span>Re-Enter Password:</div>
+                <div style="margin-left: 240px"><input class="in" type="password" id="_pass" name="_pass"></div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div></div>
+                <div style="margin-left: 240px">
+                    <input type="checkbox" id="check" name="check">
+                    <label for="check"> I accept the <a href="" style="color: yellow;">Terms of Use</a></label>
+                </div>
+            </div>
+            <div style="width: 100%; overflow: hidden; margin-bottom: 10px;">
+                <div></div>
+                <div style="margin-left: 240px">
+                    <button type="submit" class="registerbtn">Continue >></button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <div style="text-align: center; font-weight: bold; color:darkslategray;">Copyright 2022 by Omar Assem ®. All
+            Rights Reserved.</div>
+        <br>
+    </footer>
+</body>
+
+</html>
